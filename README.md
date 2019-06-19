@@ -1,5 +1,5 @@
 # Use Pytorch to train your own facial keypoint model to detect face
-## https://medium.com/@patrickhk/use-pytorch-to-train-your-own-facial-keypoint-model-to-detect-face-1c9203ab85ac?postPublishedType=initial
+## https://medium.com/@patrickhk/use-pytorch-to-train-your-own-facial-keypoint-model-to-detect-face-1c9203ab85ac
 
 ### Dataset
 Youtube Faces Dataset is used for training, total 3462 training images and 2308 testing images. Also we need a CSV file containing the annotations of the facial keypoints of the above face images. Remember to use pandas to read the CSV file and reshape into proper (x,y) coordinate format for our model.<br/>
